@@ -47,7 +47,12 @@ body {
 }
 
 .contact-info {
+  display: flex;
+  align-items: center;
   margin-bottom: 20px;
+}
+.contact-info div {
+  width: auto;
 }
 
 .email,
@@ -101,7 +106,6 @@ body {
 }
 
 .right {
-  text-align: right;
   width: 39%;
 }
 
@@ -111,4 +115,37 @@ body {
 
 .skills__item {
   margin-bottom: 10px;
+}
+#Project-Link > a {
+  text-decoration: underline;
+  color: black;
+  font-weight: lighter;
+
+  margin-top: 50px;
+}
+@media only screen and (max-width: 500px) {
+  .full-name {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .contact-info {
+    flex-direction: column;
+  }
+  .separator {
+    width: 220px;
+    display: inline-block;
+    margin: 0px 10px;
+    height: 2px;
+    background-color: grey;
+  }
+  .section__list-item {
+    margin-bottom: 50px;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
 }
