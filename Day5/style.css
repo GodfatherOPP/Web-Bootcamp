@@ -13,6 +13,7 @@ main {
   display: flex;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
   max-width: 900px;
+  line-height: 20px;
 }
 
 .left {
@@ -97,8 +98,9 @@ main {
 .content_details ul {
   margin-left: 30px;
 }
-.content_details_part {
-  font-size: 10px;
+.content_details_part,
+.content_details_time {
+  font-size: 14px;
 }
 @media only screen and (max-width: 660px) {
   main {
