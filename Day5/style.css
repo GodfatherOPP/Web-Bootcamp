@@ -83,13 +83,11 @@ main {
   margin-top: 25px;
 }
 .content_icon {
-  text-align: center;
-  height: 100%;
   margin-right: 25px;
 }
-.content_icon i {
-  font-size: 30px;
-  color: hsl(210, 60%, 48%);
+.content_icon img {
+  height: 60px;
+  width: 60px;
 }
 .text {
   margin-top: 10px;
